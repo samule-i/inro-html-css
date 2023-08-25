@@ -1,5 +1,6 @@
 * {
     color: #839496;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 body {
     height:200% ;
@@ -10,13 +11,13 @@ header {
     justify-content: center;
     width:auto;
     text-align: center;
-    height:120px;
+    height:fit-content;
     padding:20px;
     background-color: #073642;
 }
 
 h1, h2, h3 {
-  font-family: 'Courier New', Courier, monospace;
+  font-family:Arial, Helvetica, sans-serif
 }
 
 h2 {
