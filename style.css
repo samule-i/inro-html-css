@@ -77,11 +77,21 @@ main>h2.article-title {
 main>article {
     grid-area: article;
 }
-.bordered_image {
+.badges {
+    display: flex;
     grid-area: image;
-    /* border-style: solid; */
+    flex-wrap: wrap;
+    justify-content: space-evenly;
     margin: auto;
-    box-shadow:5px 5px 4px #cb4c1638;
+}
+.bordered_image {
+    /* grid-area: image; */
+    /* border-style: solid; */
+    display: inline;
+    margin: 50px;
+    /* box-shadow:5px 5px 4px #cb4c1638; */
+    border-color: white;
+    border-style: solid;
     border-width: 2px;
     border-radius: 50%;
     
